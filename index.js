@@ -10,7 +10,7 @@ const readFile = pify(fs.readFile)
 const pLimit = require('p-limit')
 const pRetry = require('p-retry')
 
-const limit = pLimit(20)
+const limit = pLimit(10)
 
 start().catch(console.error)
 
