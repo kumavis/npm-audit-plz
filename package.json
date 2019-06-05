@@ -1,0 +1,20 @@
+{
+  "name": "npm-audit-plz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clone": "^2.1.2",
+    "lock-verify": "^2.1.0",
+    "npm": "^6.9.0",
+    "p-limit": "^2.2.0",
+    "p-retry": "^4.1.0",
+    "pify": "^4.0.1"
+  }
+}
